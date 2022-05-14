@@ -6,7 +6,10 @@ a great library, suffers from a somewhat difficult to use api. By introducing a 
 which is a collection of all the properties you might wish to set when writing a cell, it can
 be significantly easier to code consistent cell calls as well as understanding why a cell 
 looks like it does when output. Additionally color management has been improved with the Color
-class and a ColorsEnum object providing some base colors to use. 
+class and a ColorsEnum object providing some base colors to use. Additionally this targets PHP 8.1
+and so is strongly typed uses enums and class constants to reduce data type exceptions.
+Currently the library focuses on text enhancements only, and I would expect it's primary usage
+would be in report building, though anything tFPDF can do, this can do.
 
 Consider the following using the old library, where $pdf is an instance of \tfpdf:
 
@@ -76,7 +79,6 @@ size will be reduced to try and fit the text in a cell, down to autoShrinkMinFon
 
 * Rollback points using setRollbackPoint, rollbackTo, and clearRollbackPoints.
 
-These classes target php 8.1, and as a result utilize the newer enum structure.
-
 To use, create an instance of the \Mg\Tfpdf\Pdf object or an instance of a class extending
-\Mg\Tfpdf\Pdf. 
+\Mg\Tfpdf\Pdf. See the test for an example of how to use this library as well as what
+you can expect as outputs.

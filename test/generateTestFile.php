@@ -194,14 +194,17 @@ class TestReport extends Pdf
         $testCell->text = 'Should autowrap to 4 lines: 52 cell height / 12 font size = 4 '.$wrapCell->text;
         $this->writeCell($testCell);
 
-/*        $this->SetY($this->GetY()+10);
+        $this->SetY($this->GetY()+10);
         $testCell = clone $cell;
+        $testCell->autoWrapLineHeight = 15;
+        $testCell->align = AlignEnum::CENTER;
         $testCell->x = 75;
-        $text = $this->getLorumIpsum()."\n\n".$this->getLorumIpsum();
-        $testCell->text = $text;
+        $testCell->text = substr("Prove border is height, not text height: ".$this->getLorumIpsum(),0,100);
         $testCell->width = 200;
+        $testCell->height = 150;
         $testCell->allowAutoWrap = true;
-        $this->SetY($this->writeCell($testCell)+5);*/
+        $testCell->borderFrame(true);
+        $this->SetY($this->writeCell($testCell)+5);
 
 
 
