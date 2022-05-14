@@ -12,7 +12,8 @@
     },
     "require": {
         "ext-mbstring": "*",
-        "setasign/tfpdf": "1.32"
+        "setasign/tfpdf": "1.32",
+        "php": ">=8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.2"
