@@ -79,6 +79,6 @@ size will be reduced to try and fit the text in a cell, down to autoShrinkMinFon
 
 * Rollback points using setRollbackPoint, rollbackTo, and clearRollbackPoints.
 
-To use, create an instance of the \Mg\Tfpdf\Pdf object or an instance of a class extending
-\Mg\Tfpdf\Pdf. See the test for an example of how to use this library as well as what
+To use, create an instance of the \Mgrn\Tfpdf\Pdf object or an instance of a class extending
+\Mgrn\Tfpdf\Pdf. See the test for an example of how to use this library as well as what
 you can expect as outputs.

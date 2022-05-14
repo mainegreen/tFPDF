@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Mg\Tfpdf;
+namespace Mgrn\Tfpdf;
 
 /**
  * Cells behaviour is as follows:

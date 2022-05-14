@@ -2,11 +2,11 @@
 declare(strict_types=1);
 require_once ('bootstrap.php');
 
-use \Mg\Tfpdf\Pdf;
-use \Mg\Tfpdf\Cell;
-use \Mg\Tfpdf\Color;
-use \Mg\Tfpdf\ColorsEnum;
-use \Mg\Tfpdf\AlignEnum;
+use \Mgrn\Tfpdf\Pdf;
+use \Mgrn\Tfpdf\Cell;
+use \Mgrn\Tfpdf\Color;
+use \Mgrn\Tfpdf\ColorsEnum;
+use \Mgrn\Tfpdf\AlignEnum;
 
 class TestReport extends Pdf
 {

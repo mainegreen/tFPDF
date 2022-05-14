@@ -1,13 +1,13 @@
 {
-    "name": "mg/tfpdf",
+    "name": "mgrn/tfpdf",
     "description": "Extended version of the tFPDF library with more features like rollback and better cell features.",
     "type": "library",
     "keywords": ["pdf", "fpdf", "unicode", "tfpdf"],
     "license": "LGPL-2.1",
     "autoload": {
         "psr-4": {
-            "Mg\\Tfpdf\\": "src/",
-            "Mg\\Tfpdf\\Test\\": "test/"
+            "Mgrn\\Tfpdf\\": "src/",
+            "Mgrn\\Tfpdf\\Test\\": "test/"
         }
     },
     "require": {
